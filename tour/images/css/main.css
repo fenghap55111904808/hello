@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./tour/images/css/main.css">
-    <title>国内旅游</title>
-</head>
-
-<!--<style>
-    html{
+html{
     background: #f5f5f5;
 }
 body{
@@ -134,11 +124,11 @@ span{
     left: 210px;
     /*border: 1px solid red;*/
     width: 200px;
-    height: 800px;
+    height: 900px;
     background-color: #2b3741;
 }
 
-ul{
+nl{
     list-style: none;
 }
 
@@ -162,7 +152,7 @@ ul{
 }
 
 .qui-footer{
-    border: 1px solid red ;
+    /*border: 1px solid red ;*/
     text-align: center;
     line-height: 20px;
     font-size: 10px;
@@ -171,89 +161,5 @@ ul{
 .qui-heafer a{
     text-decoration: none;
     color: #444;
-}-->
+}
 
-
-
-
-<body>
-    <header class="qui-heafer">
-        <h1>国内旅游计划</h1>
-    </header>
-
-
-</body>
-    <section class="plcRouteList">
-        <a href="">
-            <img src="tour/images/fengjing.jpg" alt="" width="635">
-        </a>
-
-        <div class="bottom">
-            <p class="face">
-                <img src="tour/images/touxiang.jpg" alt="" width="38" height="38" class="pic">
-            </p>
-            <h2 class="title">我的旅游行程</h2>
-        </div>
-
-        <p class="day">
-            14天
-        </p>
-        <div>
-            <em>
-                城市
-            </em>
-            <span>
-               昆明-香格里拉-西藏 
-            </span>
-        </div>
-
-    </section>
-    <section class="plcRouteList">
-        <a href="">
-            <img src="tour/images/华东.jpg" alt="" width="635">
-        </a>
-
-        <div class="bottom2">
-            <p class="face2">
-                <img src="tour/images/touxiang.jpg" alt="" width="38" height="38" class="pic">
-            </p>
-            <h2 class="title">我的旅游行程</h2>
-        </div>
-
-        <p class="day2">
-            15天
-        </p>
-        <div>
-            <em>
-                城市
-            </em>
-            <span>
-               北京-常州-苏州 
-            </span>
-        </div>
-    </section>
-
-    <footer class="qui-footer">
-        <p>
-            <a href="#">手机版</a>
-            <a href="#">电脑版</a>
-            <a href="#">APP</a>
-        </p>
-    </footer>
-
-    <aside class="qui-aside">
-        <nav class ="nav-aside">
-            <nl>
-               <li><a href="">首页</a></li>
-               <li><a href="">目的地</a></li>
-               <li><a href="">酒店</a></li>
-               <li><a href="">机票</a></li>
-               <li><a href="">时间</a></li>
-               <li><a href="">点评</a></li>
-            </nl> 
-        </nav>
-    </aside>
-    
-</body>
-
-</html>
